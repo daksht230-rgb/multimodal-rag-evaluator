@@ -1,2 +1,14 @@
-# multimodal-rag-evaluator
-Production-grade multimodal RAG evaluation framework for assessing text, table, and chart grounding accuracy.
+# Multimodal RAG Evaluator
+
+A high-performance Python framework engineered for assessing retrieval grounding and faithfulness across text, table, and chart modalities in RAG architectures.
+
+## Architecture & Core Features
+- **Modality Grounding Validation:** Automated heuristics checking for context relevance and answer faithfulness across text, tables, and visual charts[cite: 15].
+- **Batch Evaluation & Metrics:** Computes token counts, overlap ratios, and success rate summaries at scale[cite: 15].
+- **RESTful Evaluation API:** Built with FastAPI and Pydantic for high-throughput asynchronous evaluation runs[cite: 15].
+
+## Quick Start
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   python main.py
