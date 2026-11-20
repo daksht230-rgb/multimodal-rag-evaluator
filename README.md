@@ -4,8 +4,8 @@ A high-performance Python framework engineered for assessing retrieval grounding
 
 ## Architecture & Core Features
 - **Modality Grounding Validation:** Automated heuristics checking for context relevance and answer faithfulness across text, tables, and visual charts[cite: 15].
-- **Batch Evaluation & Metrics:** Computes token counts, overlap ratios, and success rate summaries at scale[cite: 15].
-- **RESTful Evaluation API:** Built with FastAPI and Pydantic for high-throughput asynchronous evaluation runs[cite: 15].
+- **Batch Evaluation & Metrics:** Computes token counts, overlap ratios, and success rate summaries at scale.
+- **RESTful Evaluation API:** Built with FastAPI and Pydantic for high-throughput asynchronous evaluation runs.
 
 ## Quick Start
 1. Install dependencies:
